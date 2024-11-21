@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Коментари за wordpress	</title>
+	<atom:link href="https://tjdmk.github.io/transport/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjdmk.github.io/transport</link>
+	<description></description>
+	<lastBuildDate>Tue, 24 Sep 2024 20:40:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7</generator>
+	<item>
+		<title>
+		Коментар на Zdravo svijete! од стране WordPress komentator		</title>
+		<link>https://tjdmk.github.io/transport/zdravo-svijete/#comment-1</link>
+
+		<dc:creator><![CDATA[WordPress komentator]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 20:40:11 +0000</pubDate>
+		<guid isPermaLink="false">https://tjdmk.github.io/transport/?p=1#comment-1</guid>
+
+					<description><![CDATA[Zdravo, ovo je komentar.
+Da počnete sa moderacijom, uređivanjem i brisanjem komentara, molimo posjetite ekran komentara na kontrolnoj ploči.
+Avatari komentatora dolaze iz &lt;a href=&quot;https://gravatar.com&quot;&gt;Gravatara&lt;/a&gt;.]]></description>
+			<content:encoded><![CDATA[<p>Zdravo, ovo je komentar.<br />
+Da počnete sa moderacijom, uređivanjem i brisanjem komentara, molimo posjetite ekran komentara na kontrolnoj ploči.<br />
+Avatari komentatora dolaze iz <a href="https://gravatar.com/">Gravatara</a>.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
