@@ -1,0 +1,944 @@
+# Translation of Plugins - TablePress &#8211; Tables in WordPress made easy - Stable (latest release) in Serbian
+# This file is distributed under the same license as the Plugins - TablePress &#8211; Tables in WordPress made easy - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-14 17:14:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Plugins - TablePress &#8211; Tables in WordPress made easy - Stable (latest release)\n"
+
+#: views/view-list.php:211
+msgid "Welcome!"
+msgstr "Dobro došli!"
+
+#: views/view-list.php:193 views/view-list.php:209 views/view-list.php:230
+#: views/view-list.php:244
+msgid "Hide this message"
+msgstr "Sakrij ovu poruku"
+
+#: views/view-list.php:217
+msgid "Tobias Bäthge, developer of TablePress"
+msgstr "Tobias Bäthge, programer TablePress-a"
+
+#: views/view-list.php:218
+msgid "Hi, my name is Tobias, I&#8217;m the developer of the TablePress plugin."
+msgstr "Zdravo, zovem se Tobias, i programer sam TablePress plugin-a."
+
+#: views/view-list.php:246
+msgid "Thank you for updating to TablePress %s!"
+msgstr "Hvala što ažurirate TablePress %s!"
+
+#: views/view-list.php:252 views/view-list.php:253
+msgid "The table was deleted successfully."
+msgid_plural "The tables were deleted successfully."
+msgstr[0] "Tabela je uspešno obrisana."
+msgstr[1] "Tabela je uspešno obrisana."
+msgstr[2] ""
+
+#: views/view-list.php:255
+msgid "The copied table has the table ID &#8220;%s&#8221;."
+msgstr "Kopirana tabela ima ID &#8220;%s&#8221;."
+
+#: views/view-list.php:257
+msgid "Error: The table could not be copied."
+msgstr "Greška: Tabela ne može da se kopira."
+
+#: views/view-list.php:258
+msgid "Error: You did not specify a valid table ID."
+msgstr "Greška: Niste daliispravni ID tabele."
+
+#: views/view-list.php:260
+msgid "Error: This bulk action is invalid!"
+msgstr "Greška: Ova grupna akcija je neispravna!"
+
+#: views/view-list.php:261
+msgid "Error: You did not select any tables!"
+msgstr "Greška: Niste selektovali nijednu tabelu!"
+
+#: views/view-list.php:262
+msgid "Notice: Not all selected tables could be deleted!"
+msgstr "Napomena: Nisu sve selektovane tabele mogle da se obrišu!"
+
+#: views/view-list.php:263
+msgid "Notice: Not all selected tables could be copied!"
+msgstr "Napomena: Nisu sve selektovane tabele mogle da se kopiraju!"
+
+#: views/view-list.php:264
+msgid "The tables were imported successfully."
+msgstr "Tabele su uspešno uvezene."
+
+#: views/view-list.php:270
+msgid "Tables"
+msgstr "Tabele"
+
+#: views/view-editor_button_thickbox.php:120 views/view-list.php:341
+msgid "This is a list of your tables."
+msgstr "Ovo je spisak vaših tabela."
+
+#: controllers/controller-admin_ajax.php:297 views/view-about.php:113
+#: views/view-list.php:349 views/view-preview_table.php:72
+msgid "Each table has a unique ID that needs to be adjusted in that Shortcode."
+msgstr "Svaka tabela ima jedinstveni ID koji treba da se prilagodi u taj kratki kod."
+
+#: views/class-all-tables-list-table.php:106
+msgid "Author"
+msgstr "Autor"
+
+#: views/class-all-tables-list-table.php:107
+msgid "Last Modified By"
+msgstr "Poslednje modifikovano od strane:"
+
+#: views/class-all-tables-list-table.php:222
+#: views/class-all-tables-list-table.php:229
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Edit &#8220;%s&#8221;"
+
+#: views/class-all-tables-list-table.php:231
+msgid "Show Shortcode"
+msgstr "Prikaži kratki kod"
+
+#: views/class-all-tables-list-table.php:233
+msgid "Copy &#8220;%s&#8221;"
+msgstr "Copy &#8220;%s&#8221;"
+
+#: views/class-all-tables-list-table.php:233 admin/js/build/edit.js:1
+#: admin/js/edit/data/contextmenu.js:85
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: views/class-all-tables-list-table.php:236
+msgid "Export &#8220;%s&#8221;"
+msgstr "Izvezi &#8220;%s&#8221;"
+
+#: views/class-all-tables-list-table.php:236
+msgctxt "row action"
+msgid "Export"
+msgstr "&#8220;%s&#8221;"
+
+#: views/class-all-tables-list-table.php:239
+msgid "Delete &#8220;%s&#8221;"
+msgstr "Obriši &#8220;%s&#8221;"
+
+#: views/class-all-tables-list-table.php:368
+msgctxt "bulk action"
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: views/class-all-tables-list-table.php:371
+msgctxt "bulk action"
+msgid "Export"
+msgstr "Izvezi"
+
+#: views/class-all-tables-list-table.php:374
+msgctxt "bulk action"
+msgid "Delete"
+msgstr "Obriši"
+
+#: views/class-all-tables-list-table.php:412
+msgid "Bulk Actions"
+msgstr "Grupne akcije"
+
+#: views/class-all-tables-list-table.php:417
+msgid "Apply"
+msgstr "Primeni"
+
+#: views/class-all-tables-list-table.php:439
+msgid "You should <a href=\"%s\">add</a> a table to get started!"
+msgstr "Treba da <a href=\"%s\">imate</a> tabelu da biste počeli!"
+
+#: views/class-all-tables-list-table.php:441
+msgid "You should <a href=\"%s\">import</a> a table to get started!"
+msgstr "Treba da imate <a href=\"%s\">izvoz</a> tabelu da biste počeli!"
+
+#: views/view-options.php:41
+msgid "Options saved successfully."
+msgstr "Opcije uspešno sačuvane."
+
+#: views/view-options.php:42
+msgid "Options saved successfully, but &#8220;Custom CSS&#8221; was not saved to file."
+msgstr "Opcije uspešno sačuvane, ali &#8220;kustomizacija CSS&#8221; nije sačuvana."
+
+#: views/view-options.php:43
+msgid "Error: Options could not be saved."
+msgstr "Greška: Opcije nisu sačuvane."
+
+#: views/view-options.php:59
+msgid "User Options"
+msgstr "Kustomizirane opcije"
+
+#: views/view-options.php:126
+msgid "Custom CSS"
+msgstr "Korisnički CSS"
+
+#: views/view-options.php:136
+msgid "&#8220;Custom CSS&#8221; (<a href=\"%s\">Cascading Style Sheets</a>) can be used to change the styling or layout of a table."
+msgstr "&#8220;Custom CSS&#8221; (<a href=\"%s\">Korisnički kaskadni stilovi</a>)  mogu se koristiti za menjanje stila ili rasporeda tabele."
+
+#: views/view-options.php:138
+msgid "You can get styling examples from the <a href=\"%s\">FAQ</a>."
+msgstr "Možete da dobijete primere stilizovanja od <a href=\"%s\">FAQ</a>."
+
+#: views/view-options.php:142
+msgid "Please note that invalid CSS code will be stripped, if it can not be corrected automatically."
+msgstr "Imajte na umu da će neispravan CSS kod biti skinut, ako ne može automatski da se ispravi."
+
+#: views/view-options.php:178
+msgid "Top-Level (top)"
+msgstr "Gornji nivo (vrh)"
+
+#: views/view-options.php:179
+msgid "Top-Level (middle)"
+msgstr "Gornji nivo (sredina)"
+
+#: views/view-options.php:180
+msgid "Top-Level (bottom)"
+msgstr "Gornji nivo (dno)"
+
+#: views/view-options.php:190
+msgid "Admin menu entry"
+msgstr "Administratorski unos menija"
+
+#: views/view-options.php:191
+msgid "TablePress shall be shown in this section of my admin menu: %s"
+msgstr "TablePress će biti prikazan u ovom odeljku mog dministratorskog menija:%s"
+
+#: views/view-options.php:227
+msgid "Uninstalling <strong>will permanently delete</strong> all TablePress tables and options from the database."
+msgstr "Deinstaliranje će <strong>trajno obrisati</strong> sve TablePress tabele i opcije iz baze podataka."
+
+#: views/view-options.php:228
+msgid "It is recommended that you create a backup of the tables (by exporting the tables in the JSON format), in case you later change your mind."
+msgstr "Preporučuje se da kreirate rezervnu kopiju tabela (tako što ćete izvesti tabele u JSON formatu), u slučaju da se kasnije predomislite."
+
+#: views/view-options.php:229
+msgid "You will manually need to remove the plugin&#8217;s files from the plugin folder afterwards."
+msgstr "Moraćete posle ručno da uklonite plugin&#8217;s  fajlove iz foldera plugin-a."
+
+#: views/view-options.php:230
+msgid "Be very careful with this and only click the button if you know what you are doing!"
+msgstr "Budite veoma pažljivi s ovim i kliknite na dugme samo ako znate šta radite!"
+
+#: views/view-options_custom_css.php:43
+msgid "Attention: Further action is required to save the changes to your &#8220;Custom CSS&#8221;!"
+msgstr "Pažnja: Potrebna je dalja akcija da biste sačuvali izmene &#8220;Custom CSS&#8221;!"
+
+#: views/view-options_custom_css.php:117
+msgid "Due to the configuration of your server, TablePress was not able to automatically save your &#8220;Custom CSS&#8221; to a file."
+msgstr "Zbog konfiguracije vašeg servera TablePress nije bio u mogućnosti da automatski sačuva vaš &#8220;Custom CSS&#8221; fajl."
+
+#: views/view-options_custom_css.php:118
+msgid "To try again with the same method that you use for updating plugins or themes, please fill out the &#8220;%s&#8221; form below."
+msgstr "Da biste pokušali ponovo sa istim metodom koji koristite za ažuriranje plugin-ova ili tema, molimo vas da popunite &#8220;%s&#8221; formular ispod."
+
+#: views/view-options_custom_css.php:118
+msgid "Connection Information"
+msgstr "Informacije o konekciji"
+
+#: views/view-options_custom_css.php:145
+msgid "Proceed without saving a file"
+msgstr "Nastavite bez čuvanja fajla"
+
+#: views/view-options_custom_css.php:147
+msgid "To proceed without trying to save the &#8220;Custom CSS&#8221; to a file, click the button below."
+msgstr "Da nastavite bez pokušavanja da sačuvate &#8220;Custom CSS&#8221; fajl, kliknite dugme ispod."
+
+#: views/view-options_custom_css.php:148
+msgid "Your &#8220;Custom CSS&#8221; will then be loaded inline."
+msgstr "Potom &#8220;Custom CSS&#8221; će vam se učitati"
+
+#: views/view-options_custom_css.php:150
+msgid "Proceed without saving &#8220;Custom CSS&#8221; to a file"
+msgstr "Nastavite bez čuvanja &#8220;Custom CSS&#8221; fajla"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: tablepress.php
+msgid "https://tablepress.org/"
+msgstr "https://tablepress.org/"
+
+#. Author of the plugin
+#: tablepress.php
+msgid "Tobias Bäthge"
+msgstr "Tobias Bäthge"
+
+#: views/view-about.php:97
+msgid "At first, you should add or import a table."
+msgstr "Prvo treba da dodate ili uvezete neku tabelu."
+
+#: views/view-about.php:98
+msgid "This means that you either let the plugin create an empty table for you or that you load an existing table from either a CSV, HTML, JSON, XLS, or XLSX file."
+msgstr "To znači da ili pustite da plugin kreira praznu tabelu za vas ili da napunite već postojeću tabelu iz CSV, HTML, JSON, XLS ili XLSX fajla."
+
+#: views/view-about.php:102
+msgid "To easily add a link or an image to a cell, use the provided buttons."
+msgstr "Da lako dodate link ili sliku u neku ćeliju, koristite priloženu dugmad."
+
+#: views/view-about.php:118
+msgid "Tables can be styled by changing and adding CSS commands."
+msgstr "Tabele se mogu stilizovati menjanjem i dodavanjem CSS komandi."
+
+#: views/view-about.php:119
+msgid "The plugin ships with default CSS stylesheets, which can be customized with own code or replaced with other stylesheets."
+msgstr "Plugin ide sa podrazumevanim CSS stilovima, koji se mogu kustomizirati sopstvenim kodom ili zameniti drugim stilovima."
+
+#: views/view-about.php:120
+msgid "For this, each table is given certain CSS classes that can be used as CSS selectors."
+msgstr "Za ovo, svaka tabela ima određene CSS klase koje se mogu koristiti kao CSS selektori."
+
+#: views/view-about.php:155
+msgid "This plugin was written and developed by <a href=\"%s\">Tobias Bäthge</a>."
+msgstr "Ovaj plugin je napisan i razvijen od strane <a href=\"%s\">Tobias Bäthge</a>."
+
+#: views/view-about.php:156
+msgid "It is licensed as Free Software under GNU General Public License 2 (GPL 2)."
+msgstr "To je licenciran slobodni softver pod GNU General Public License 2 (GPL 2)."
+
+#: views/view-about.php:159
+msgid "Please rate and review the plugin in the <a href=\"%s\">WordPress Plugin Directory</a>."
+msgstr "Molimo vas da ocenite i napišete kritiku za plugin u <a href=\"%s\">WordPress Plugin direktorijumu</a>."
+
+#: views/view-about.php:190
+msgid "If you do not find an answer there, please <a href=\"%s\">open a new thread</a> in the WordPress Support Forums."
+msgstr "Ako tu ne nađete odgovor, <a href=\"%s\">otvorite novu temu</a> na forumu. "
+
+#: views/view-about.php:207
+msgid "Please provide this information in bug reports and support requests."
+msgstr "Molimo vas da pružite te informacije u izveštajima o bagovima i zahtevima za podršku."
+
+#: views/view-about.php:246
+msgid "Special Thanks go to:"
+msgstr "Posebna zahvalnost sledi:"
+
+#: views/view-add.php:41
+msgid "Error: The table could not be added."
+msgstr "Greška: Tabela ne može da se doda."
+
+#: admin/js/add/screen.jsx:125 admin/js/build/add.js:1
+msgid "Add Table"
+msgstr "Dodaj tabelu"
+
+#: views/view-add.php:61
+msgid "To add a new table, enter its name, a description (optional), and the number of rows and columns into the form below."
+msgstr "Da biste dodali novu tabelu, unesite njeno ime, opis (opciono) i broj redova i kolona u obrazac ispod"
+
+#: views/view-add.php:64
+msgid "You can always change the name, description, and size of your table later."
+msgstr "Uvek možete kasnije da promenite naziv, opis i veličinu svoje tabele."
+
+#: views/class-all-tables-list-table.php:104
+#: views/class-editor-button-thickbox-list-table.php:85
+#: admin/js/add/screen.jsx:70 admin/js/build/add.js:1 admin/js/build/edit.js:1
+#: admin/js/edit/table-information.js:105
+msgid "Table Name"
+msgstr "Naziv tabele"
+
+#: admin/js/add/screen.jsx:71 admin/js/build/add.js:1
+msgid "The name or title of your table."
+msgstr "Naziv ili naslov vaše tabele"
+
+#: views/class-all-tables-list-table.php:105
+#: views/class-editor-button-thickbox-list-table.php:86
+#: admin/js/add/screen.jsx:78 admin/js/build/add.js:1 admin/js/build/edit.js:1
+#: admin/js/edit/table-information.js:116
+msgid "Description"
+msgstr "Opis"
+
+#: admin/js/add/screen.jsx:78 admin/js/build/add.js:1
+msgid "(optional)"
+msgstr "(opciono)"
+
+#: admin/js/add/screen.jsx:79 admin/js/build/add.js:1
+msgid "A description of the contents of your table."
+msgstr "Opis sadržaja vaše tabele"
+
+#: admin/js/add/screen.jsx:93 admin/js/build/add.js:1
+msgid "Number of Rows"
+msgstr "Broj redova"
+
+#: admin/js/add/screen.jsx:95 admin/js/add/screen.jsx:111
+#: admin/js/build/add.js:1 admin/js/build/edit.js:1
+#: admin/js/edit/table-manipulation.js:265
+#: admin/js/edit/table-manipulation.js:303
+msgid "This field must contain a positive number."
+msgstr "Ova ćelija mora da sadrži pozitivan broj"
+
+#: admin/js/add/screen.jsx:94 admin/js/build/add.js:1
+msgid "The number of rows in your table."
+msgstr "Broj redova u vašoj tabeli"
+
+#: admin/js/add/screen.jsx:109 admin/js/build/add.js:1
+msgid "Number of Columns"
+msgstr "Broj kolona"
+
+#: admin/js/add/screen.jsx:110 admin/js/build/add.js:1
+msgid "The number of columns in your table."
+msgstr "Broj kolona u vašoj tabeli"
+
+#: views/view-edit.php:54
+msgid "The table was added successfully."
+msgstr "Tabela je uspešno dodata"
+
+#: views/view-edit.php:55 views/view-list.php:255 views/view-list.php:256
+msgid "The table was copied successfully."
+msgid_plural "The tables were copied successfully."
+msgstr[0] "Tabela je uspešno kopirana"
+msgstr[1] "Tabela je uspešno kopirana"
+msgstr[2] ""
+
+#: views/view-edit.php:55
+msgid "You are now seeing the copied table, which has the table ID &#8220;%s&#8221;."
+msgstr "Sada vidite kopiranu tabelu koja ima ID tabele &#8220;%s&#8221;."
+
+#: views/view-edit.php:56
+msgid "The table was imported successfully."
+msgstr "Tabela je uspešno uvezena"
+
+#: views/view-edit.php:57 views/view-list.php:254
+msgid "Error: The table could not be deleted."
+msgstr "Greška: Tabela ne može da se obriše."
+
+#: views/view-edit.php:78
+msgid "Table Information"
+msgstr "Informacije o tabeli"
+
+#: views/view-edit.php:79
+msgid "Table Content"
+msgstr "Sadržaj tabele"
+
+#: views/view-edit.php:80
+msgid "Table Manipulation"
+msgstr "Manipulisanje tabelom"
+
+#: views/view-edit.php:81 admin/js/build/edit.js:1
+#: admin/js/edit/datatables-features.js:47 admin/js/edit/editor.js:214
+#: admin/js/edit/editor.js:223
+msgid "Table Options"
+msgstr "Opcije tabele"
+
+#: views/view-edit.php:99
+msgid "Insert into Table"
+msgstr "Ubacite u tabelu"
+
+#: views/class-all-tables-list-table.php:108 admin/js/build/edit.js:1
+#: admin/js/edit/table-information.js:128
+msgid "Last Modified"
+msgstr "Poslednje izmenjeno"
+
+#: views/view-edit.php:375 admin/js/build/edit.js:1
+#: admin/js/edit/data/contextmenu.js:137 admin/js/edit/table-manipulation.js:85
+msgid "Advanced Editor"
+msgstr "Napredni urednik"
+
+#: views/view-edit.php:396 admin/js/build/edit.js:1
+#: admin/js/edit/table-manipulation.js:110
+msgid "Help on combining cells"
+msgstr "Pomoć u kombinovanju ćelija"
+
+#: views/view-edit.php:398
+msgid "Table cells can span across more than one column or row."
+msgstr "Ćelije tabele mogu da s protežu preko više od jedne kolone ili reda."
+
+#: views/view-edit.php:399
+msgid "Combining consecutive cells within the same row is called &#8220;colspanning&#8221;."
+msgstr "Kombinovanje uzastopnih ćelija unutar istog reda zove se &#8220;colspanning&#8221;."
+
+#: views/view-edit.php:400
+msgid "Combining consecutive cells within the same column is called &#8220;rowspanning&#8221;."
+msgstr "Kombinovanje uzastopnih ćelija unutar iste kolone zove se &#8220;rowspanning&#8221;."
+
+#: views/class-all-tables-list-table.php:239 admin/js/build/edit.js:1
+#: admin/js/edit/table-manipulation.js:137
+#: admin/js/edit/table-manipulation.js:162
+msgid "Delete"
+msgstr "Obriši"
+
+#: views/view-edit.php:350
+msgid "Other Actions"
+msgstr "Ostale akcije"
+
+#: views/view-edit.php:352
+msgid "Copy Table"
+msgstr "Kopiraj tabelu"
+
+#: views/view-edit.php:355
+msgid "Export Table"
+msgstr "Izvezi tabelu"
+
+#: views/view-edit.php:358
+msgid "Delete Table"
+msgstr "Obriši tabelu"
+
+#: views/view-editor_button_thickbox.php:73
+#: views/view-editor_button_thickbox.php:118
+msgid "List of Tables"
+msgstr "Spisak tabela"
+
+#: views/view-editor_button_thickbox.php:120
+msgid "You may insert a table into a post or page here."
+msgstr "Ovde možete da ubacite tabelu u objavu ili na stranicu."
+
+#: views/class-editor-button-thickbox-list-table.php:179
+#: views/view-editor_button_thickbox.php:121
+msgid "Insert Shortcode"
+msgstr "Ubaci kratki kod"
+
+#: views/view-editor_button_thickbox.php:124 views/view-list.php:364
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Pretraži rezultate za &#8220;%s&#8221;"
+
+#: views/view-editor_button_thickbox.php:131 views/view-list.php:372
+msgid "Search Tables"
+msgstr "Pretraži tabele"
+
+#: views/class-all-tables-list-table.php:103
+#: views/class-editor-button-thickbox-list-table.php:84
+msgid "ID"
+msgstr "ID"
+
+#: views/class-all-tables-list-table.php:258
+#: views/class-editor-button-thickbox-list-table.php:165
+msgid "(no description)"
+msgstr "(bez opisa)"
+
+#: views/class-all-tables-list-table.php:428
+#: views/class-editor-button-thickbox-list-table.php:189
+#: views/view-export.php:92
+msgid "No tables found."
+msgstr "Nije pronađena nijedna tabela."
+
+#: views/class-editor-button-thickbox-list-table.php:191
+msgid "You should add or import a table on the TablePress screens to get started!"
+msgstr "Treba da dodate ili uvezete tabelu na TablePress ekranima da biste počeli!"
+
+#: views/view-export.php:41
+msgid "Error: The export failed."
+msgstr "Greška: Izvoz nije uspeo."
+
+#: views/view-export.php:42 views/view-list.php:259
+msgid "Error: This table could not be loaded!"
+msgstr "Greška: Ova tabela ne može da se učita!"
+
+#: views/view-export.php:44
+msgid "Error: The ZIP file could not be created."
+msgstr "Greška: Zip fajl ne može da se kreira."
+
+#: views/view-export.php:49 views/view-export.php:52
+msgid "Export Tables"
+msgstr "Izvezi tabele"
+
+#: views/view-export.php:67
+msgid "Exporting a table allows you to use it in other programs, like spreadsheets applications."
+msgstr "Izvoz tabele omogućava vam da je koristite i u drugim programima, kao što su tablične aplikacije."
+
+#: views/view-export.php:68
+msgid "Regularly exporting tables is also recommended as a backup of your data."
+msgstr "Redovno izvoženje tabela se takođe preporučuje kao rezervna kopija vaših podataka."
+
+#: views/view-export.php:71
+msgid "To export, select the tables and the desired export format."
+msgstr "Da biste izvezli tabelu, selektujte je kao i željeni format izvoza."
+
+#: views/view-export.php:72
+msgid "If you choose more than one table, the exported files will automatically be stored in a ZIP archive file."
+msgstr "Ako odaberete više od jedne tabele izvezeni fajlovi će se automatski skladištiti u ZIP fajlu."
+
+#: views/view-export.php:74
+msgid "Be aware that for the CSV and HTML formats only the table data, but no table options are exported!"
+msgstr "Imajte na umu da se za CSV i HTML formate izvoze samo podaci tabele, ali ne i opcije tabele!"
+
+#: views/view-export.php:75
+msgid "For the JSON format, the table data and the table options are exported."
+msgstr "Za format JSON, izvoze se podaci tabele i opcije tabele."
+
+#: admin/js/build/export.js:1 admin/js/export/screen.jsx:98
+msgid "Tables to Export"
+msgstr "Tabele za izvoz"
+
+#: admin/js/build/export.js:1 admin/js/export/screen.jsx:105
+msgid "Select all"
+msgstr "Selektuj sve"
+
+#: admin/js/build/export.js:1 admin/js/build/import.js:1
+#: admin/js/export/screen.jsx:41 admin/js/import/screen.jsx:64
+msgid "ID %1$s: %2$s"
+msgstr "ID %1$s: %2$s"
+
+#: admin/js/build/export.js:1 admin/js/export/screen.jsx:163
+#: admin/js/export/screen.jsx:173
+msgid "Export Format"
+msgstr "Format izvoza"
+
+#: admin/js/build/export.js:1 admin/js/export/screen.jsx:184
+#: admin/js/export/screen.jsx:196
+msgid "CSV Delimiter"
+msgstr "CSV graničnik"
+
+#: admin/js/build/export.js:1 admin/js/export/screen.jsx:204
+msgid "(Only needed for CSV export.)"
+msgstr "(Potrebno samo a CSV izvoz)"
+
+#: admin/js/build/export.js:1 admin/js/export/screen.jsx:212
+msgid "ZIP file"
+msgstr "ZIP fajl"
+
+#: admin/js/build/export.js:1 admin/js/export/screen.jsx:221
+msgid "Create a ZIP archive."
+msgstr "Kreiraj ZIP arhivu"
+
+#: admin/js/build/export.js:1 admin/js/export/screen.jsx:228
+msgid "(Mandatory if more than one table is selected.)"
+msgstr "(Obavezno ako je selektovano više od jedne tabele.)"
+
+#: admin/js/build/export.js:1 admin/js/export/screen.jsx:234
+msgid "Note: Support for ZIP file creation seems not to be available on this server."
+msgstr "Napomena: Čini se da podrška za kreiranje ZIP dajla nije dostupna na ovom serveru."
+
+#: views/view-import.php:52
+msgid "Error: The import failed."
+msgstr "Greška: Uvoz nije uspeo."
+
+#: views/view-import.php:56
+msgid "Import Tables"
+msgstr "Uvozne tabele "
+
+#: views/view-import.php:77
+msgid "You can also choose to import it as a new table, to replace an existing table, or to append the rows to an existing table."
+msgstr "Takođe možete da odaberete da ga uvezete kao novu tabelu, da zamenite već postojeću tabelu, ili da dodate redove postojećoj tabeli."
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:139
+#: admin/js/import/screen.jsx:144
+msgid "Import Source"
+msgstr "Izvor izvoza"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:32
+msgid "File Upload"
+msgstr "Postavljanje fajla"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:36
+msgid "URL"
+msgstr "URL"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:40
+msgid "File on server"
+msgstr "Fajl na serveru"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:44
+msgid "Manual Input"
+msgstr "Ručni unos"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:37
+msgid "File URL"
+msgstr "URL fajla"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:41
+msgid "Server Path to file"
+msgstr "Server putanja za fajl"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:45
+msgid "Import data"
+msgstr "Uvezeni podaci"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:248
+msgid "Add, Replace, or Append?"
+msgstr "Dodaj, zameni ili prikači?"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:258
+msgid "Add as new table"
+msgstr "Dodaj kao novu tabelu"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:259
+msgid "Replace existing table"
+msgstr "Zameni postojeću tabelu"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:260
+msgid "Append rows to existing table"
+msgstr "Prikači redove postojećoj tabeli"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:267
+#: admin/js/import/screen.jsx:276
+msgid "Table to replace or append to"
+msgstr "Tabela koja treba da se zameni ili da se na nju prikači"
+
+#: admin/js/build/import.js:1 admin/js/import/screen.jsx:304
+msgctxt "button"
+msgid "Import"
+msgstr "Uvezi"
+
+#: views/class-editor-button-thickbox-list-table.php:87
+msgid "Action"
+msgstr "Акција"
+
+#: classes/class-export.php:55 classes/class-import-legacy.php:66
+msgid "CSV - Character-Separated Values"
+msgstr "CSV - vrednosti razdvojene karakterom"
+
+#: classes/class-export.php:56 classes/class-import-legacy.php:68
+msgid "HTML - Hypertext Markup Language"
+msgstr "HTML - jezik za označavanje hiperteksta"
+
+#: classes/class-export.php:57 classes/class-import-legacy.php:70
+msgid "JSON - JavaScript Object Notation"
+msgstr "JSON - JavaScript Object Notation"
+
+#: classes/class-export.php:60
+msgid "; (semicolon)"
+msgstr "; (tačka zarez)"
+
+#: classes/class-export.php:61
+msgid ", (comma)"
+msgstr ", (zarez)"
+
+#: classes/class-export.php:62
+msgid "\\t (tabulator)"
+msgstr "\\t (tabulator)"
+
+#: classes/class-import-legacy.php:71
+msgid "XLS - Microsoft Excel 97-2003 (experimental)"
+msgstr "XLS - Microsoft Excel 97-2003 (experimental)"
+
+#: classes/class-import-legacy.php:183 classes/class-import-legacy.php:280
+#: libraries/html-parser.class.php:68
+msgid "The imported file contains errors:"
+msgstr "Uvezeni fajl sadrži greške:"
+
+#: classes/class-render.php:359
+msgid "<!-- The table with the ID %s is empty! -->"
+msgstr "<!-- Tabela sa ID %s je prazna! -->"
+
+#: classes/class-render.php:540 views/class-all-tables-list-table.php:229
+msgid "Edit"
+msgstr "Uredi"
+
+#: classes/class-view.php:112
+msgid "TablePress Help"
+msgstr "TablePress pomoć"
+
+#: classes/class-view.php:103 views/view-about.php:188
+msgid "<a href=\"%1$s\">Support</a> is provided through the <a href=\"%2$s\">WordPress Support Forums</a>."
+msgstr "<a href=\"%1$s\">Podrška</a> se pruža putem <a href=\"%2$s\">WordPress foruma za podršku</a>."
+
+#: classes/class-view.php:105 views/view-about.php:189
+msgid "Before asking for support, please carefully read the <a href=\"%s\">Frequently Asked Questions</a>, where you will find answers to the most common questions, and search through the forums."
+msgstr "Pre nego što zatražite podršku, molimo da pažljivo pročitate <a href=\"%s\"> Česta pitanja</a> gde ćete naći odgovore na najčešća pitanja, i pretražite forume."
+
+#: classes/class-view.php:117
+msgid "For more information:"
+msgstr "Za više informacija:"
+
+#: classes/class-view.php:159 controllers/controller-admin.php:128
+#: views/view-editor_button_thickbox.php:73
+#: views/view-editor_button_thickbox.php:118
+#: views/view-options_custom_css.php:41 views/view-preview_table.php:58
+msgid "%1$s &lsaquo; %2$s"
+msgstr "%1$s &lsaquo; %2$s"
+
+#. Plugin Name of the plugin
+#: tablepress.php classes/class-view.php:407
+msgid "TablePress"
+msgstr "TablePress"
+
+#: classes/class-view.php:493 views/view-options.php:209
+#: admin/js/build/edit.js:1 admin/js/edit/buttons.js:52
+msgid "Save Changes"
+msgstr "Sačuvaj izmene"
+
+#: controllers/controller-admin.php:380
+msgid "TablePress Table"
+msgstr "TablePress tabela"
+
+#: controllers/controller-admin.php:418
+msgid "Plugin page"
+msgstr "Plugin stranica"
+
+#: controllers/controller-admin.php:434
+msgid "Frequently Asked Questions"
+msgstr "Česta pitanja"
+
+#: controllers/controller-admin.php:434
+msgid "FAQ"
+msgstr "FAQ"
+
+#: controllers/controller-admin.php:435
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: controllers/controller-admin.php:436
+msgid "Support"
+msgstr "Podrška"
+
+#: controllers/controller-admin.php:620
+msgctxt "Default CSV delimiter in the translated language (\";\", \",\", or \"tab\")"
+msgid ","
+msgstr ","
+
+#: controllers/controller-admin.php:707 controllers/controller-admin.php:708
+#: controllers/controller-admin.php:709
+msgid "All Tables"
+msgstr "Sve tabele"
+
+#: controllers/controller-admin.php:714 controllers/controller-admin.php:715
+#: admin/js/add/screen.jsx:58 admin/js/build/add.js:1
+msgid "Add New Table"
+msgstr "Dodaj novu tabelu"
+
+#: controllers/controller-admin.php:716
+msgid "Add New"
+msgstr "Dodaj novu"
+
+#: controllers/controller-admin.php:721
+msgid "Edit Table"
+msgstr "Uredi tabelu"
+
+#: controllers/controller-admin.php:728 controllers/controller-admin.php:729
+msgid "Import a Table"
+msgstr "Uvezi tabelu"
+
+#: controllers/controller-admin.php:730
+msgctxt "navigation bar"
+msgid "Import"
+msgstr "Uvezi"
+
+#: controllers/controller-admin.php:735 controllers/controller-admin.php:736
+msgid "Export a Table"
+msgstr "Izvezi tabelu"
+
+#: controllers/controller-admin.php:737
+msgctxt "navigation bar"
+msgid "Export"
+msgstr "Izvezi"
+
+#: controllers/controller-admin.php:742 controllers/controller-admin.php:743
+#: controllers/controller-admin.php:744
+msgid "Plugin Options"
+msgstr "Plugin opcije"
+
+#: controllers/controller-admin.php:749 controllers/controller-admin.php:751
+msgid "About"
+msgstr "O"
+
+#: controllers/controller-admin.php:750
+msgid "About TablePress"
+msgstr "O TablePress-u"
+
+#: classes/class-import.php:177
+msgid "Imported from Manual Input"
+msgstr "Uvezeno iz Manual Input-a"
+
+#: controllers/controller-admin.php:1364
+#: controllers/controller-admin_ajax.php:302
+msgid "The preview could not be loaded."
+msgstr "Pregled ne može da se učita"
+
+#: controllers/controller-admin.php:1364 controllers/controller-admin.php:1374
+#: views/class-all-tables-list-table.php:242 views/view-preview_table.php:58
+#: admin/js/build/edit.js:1 admin/js/edit/buttons.js:43
+msgid "Preview"
+msgstr "Pregled"
+
+#: controllers/controller-admin.php:1374
+msgid "The table could not be loaded."
+msgstr "Tavela ne može da se učita"
+
+#: controllers/controller-admin.php:1463
+msgid "TablePress was uninstalled successfully."
+msgstr "TablePress je uspešno instaliran"
+
+#: controllers/controller-admin.php:1464
+msgid "All tables, data, and options were deleted."
+msgstr "Sve tabele, podaci i opcije su izbrisani."
+
+#: controllers/controller-admin.php:1466
+msgid "You may now ask the network admin to delete the plugin&#8217;s folder <code>tablepress</code> from the server, if no other site in the network uses it."
+msgstr "Sada možete zatražiti od adminisratora mreže da obriše pluginov&#8217;s folder <code>tablepress</code> sa servera, ako ga nijedan drugi site u mreži ne koristi."
+
+#: controllers/controller-admin.php:1468
+msgid "You may now manually delete the plugin&#8217;s folder <code>tablepress</code> from the <code>plugins</code> directory on your server or use the &#8220;Delete&#8221; link for TablePress on the WordPress &#8220;Plugins&#8221; page."
+msgstr "Sada možete ručno da obrišete&#8217;s folder <code>tablepress</code> iz direktorijuma <code>plugins</code> na vašem serveru ili upotrebite link &#8220;Delete&#8221;  za TablePress na WordPress &#8220;Plugins&#8221; stranici."
+
+#: controllers/controller-admin.php:1471
+msgid "Your TablePress &#8220;Custom CSS&#8221; files have been deleted automatically."
+msgstr "Vaši TablePress &#8220;Custom CSS&#8221; korisnički fajlovi automatski su obrisani."
+
+#: controllers/controller-admin.php:1474
+msgid "Please also ask him to delete your TablePress &#8220;Custom CSS&#8221; files from the server."
+msgstr "Takođe ga zamolite da obriše vašše TablePress &#8220;Custom CSS&#8221;  korisničke fajlove sa servera."
+
+#: controllers/controller-admin.php:1476
+msgid "You may now also delete your TablePress &#8220;Custom CSS&#8221; files in the <code>wp-content</code> folder."
+msgstr "Sada možete da obrišete i svoje TablePress &#8220;Custom CSS&#8221;  korisničke fajlove u <code>wp-content</code> folderu."
+
+#: controllers/controller-admin.php:1481
+msgid "Go to &#8220;Plugins&#8221; page"
+msgstr "Idite na &#8220;Plugins&#8221; stranicu "
+
+#: controllers/controller-admin.php:1483
+msgid "Go to Dashboard"
+msgstr "Idite na kontrolnu tablu"
+
+#: controllers/controller-admin.php:1485 views/view-options.php:224
+#: views/view-options.php:233
+msgid "Uninstall TablePress"
+msgstr "Deinstalirajte TablePress"
+
+#: controllers/controller-admin_ajax.php:289 views/view-preview_table.php:64
+msgid "This is a preview of your table."
+msgstr "Ovo je prikaz vaše tabele."
+
+#: controllers/controller-frontend.php:944
+#: views/class-all-tables-list-table.php:306
+msgid "%s ago"
+msgstr "pre %s"
+
+#: controllers/controller-admin.php:237 models/model-table.php:402
+#: views/class-all-tables-list-table.php:173
+#: views/class-all-tables-list-table.php:218
+#: views/class-editor-button-thickbox-list-table.php:150
+#: admin/js/build/edit.js:1 admin/js/build/export.js:1
+#: admin/js/build/import.js:1 admin/js/edit/editor.js:611
+#: admin/js/export/screen.jsx:39 admin/js/import/screen.jsx:62
+msgid "(no name)"
+msgstr "(bez imena)"
+
+#: models/model-table.php:404
+msgid "Copy of %s"
+msgstr "Kopiranje %s"
+
+#: views/view-about.php:47
+msgid "Plugin Purpose"
+msgstr "Svrha plugin-a"
+
+#: views/view-about.php:48
+msgid "Usage"
+msgstr "Upotreba"
+
+#: views/view-about.php:49
+msgid "More Information and Documentation"
+msgstr "Više informacija i dokumentacija"
+
+#: views/view-about.php:50
+msgid "Help and Support"
+msgstr "Pomoć i podrška"
+
+#: views/view-about.php:51
+msgid "Author and License"
+msgstr "Autor i licenca"
+
+#: views/view-about.php:52
+msgid "Credits and Thanks"
+msgstr "Reference i zahvalnice"
+
+#: views/view-about.php:53
+msgid "Debug and Version Information"
+msgstr "Informacije o debagovanju i verziji"
+
+#: views/view-about.php:79
+msgid "TablePress allows you to create and manage tables in the admin area of WordPress."
+msgstr "TablePress omogućava vam da kreirate i upravljate tabelama u administratorskom području WordPress-a"
+
+#: controllers/controller-admin_ajax.php:290 views/view-preview_table.php:64
+msgid "Because of CSS styling in your theme, the table might look different on your page!"
+msgstr "Zbog CSS stilizovanja u vašoj temi, tabela može drugačije izgledati na vašoj stranici!"

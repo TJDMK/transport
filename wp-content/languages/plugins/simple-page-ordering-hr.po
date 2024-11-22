@@ -1,0 +1,40 @@
+# Translation of Plugins - Simple Page Ordering - Stable (latest release) in Croatian
+# This file is distributed under the same license as the Plugins - Simple Page Ordering - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-28 07:47:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: hr\n"
+"Project-Id-Version: Plugins - Simple Page Ordering - Stable (latest release)\n"
+
+#: class-simple-page-ordering.php:376
+msgid "To reposition an item, simply drag and drop the row by \"clicking and holding\" it anywhere (outside of the links and form controls) and moving it to its new position."
+msgstr "Kako bi premjestili stavku, jednostavno povucite i ispustite redak tako da \"kliknete i ne pustite klik\" bilo gdje (osim poveznica i kontrola forme) i pomaknete na novu poziciju."
+
+#: class-simple-page-ordering.php:762
+msgid "Sort by Order"
+msgstr "Sortiraj po Redoslijedu"
+
+#. Description of the plugin
+#: simple-page-ordering.php
+msgid "Order your pages and hierarchical post types using drag and drop on the built in page list. For further instructions, open the \"Help\" tab on the Pages screen."
+msgstr "Sortirajte svoje stranice i hijerarhijske tipove objava koristeći povuci i ispusti način na popisu stranica. Za daljnje upute, otvorite karticu \"Pomoć\" na zaslonu Stranice."
+
+#. Plugin URI of the plugin
+#: simple-page-ordering.php
+msgid "http://10up.com/plugins/simple-page-ordering-wordpress/"
+msgstr "http://10up.com/plugins/simple-page-ordering-wordpress/"
+
+#. Plugin Name of the plugin
+#: simple-page-ordering.php class-simple-page-ordering.php:373
+msgid "Simple Page Ordering"
+msgstr "Simple Page Ordering"
+
+#. Author URI of the plugin
+#: simple-page-ordering.php
+msgid "https://10up.com"
+msgstr "https://10up.com"

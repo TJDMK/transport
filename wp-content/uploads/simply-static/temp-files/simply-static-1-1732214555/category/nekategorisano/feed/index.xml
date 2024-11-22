@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Nekategorisano &#8211; wordpress</title>
+	<atom:link href="https://tjdmk.github.io/transport/category/nekategorisano/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjdmk.github.io/transport</link>
+	<description></description>
+	<lastBuildDate>Tue, 24 Sep 2024 20:40:11 +0000</lastBuildDate>
+	<language>sr-RS</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7</generator>
+	<item>
+		<title>Zdravo svijete!</title>
+		<link>https://tjdmk.github.io/transport/zdravo-svijete/</link>
+					<comments>https://tjdmk.github.io/transport/zdravo-svijete/#comments</comments>
+		
+		<dc:creator><![CDATA[crni1817]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 20:40:11 +0000</pubDate>
+				<category><![CDATA[Nekategorisano]]></category>
+		<guid isPermaLink="false">https://tjdmk.github.io/transport/?p=1</guid>
+
+					<description><![CDATA[Dobro došli u WordPress. Ovo je vaš prvi članak. Uredite ga ili obrišite, zatim započnite sa pisanjem!]]></description>
+										<content:encoded><![CDATA[
+<p>Dobro došli u WordPress. Ovo je vaš prvi članak. Uredite ga ili obrišite, zatim započnite sa pisanjem!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tjdmk.github.io/transport/zdravo-svijete/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
